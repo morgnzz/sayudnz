@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/icon.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="styles/form.css">
+    
+    <title>SayuDesigner</title>
+</head>
+<body>
+    <main>
+        <a href="#home-page"><button class="up"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 7.414V15a1 1 0 11-2 0V7.414L6.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+          </svg></button></a>
+        <div class="home-page" id="home-page">
+        <header>
+            <div class="container">
+                <h1 class="logo">SayuDesign</h1>
+                <div class="menu">
+                    <div class="menu-toggle">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                    <nav>
+                        <ul class="nav-list">
+                            <li><a href="#home-page" onclick="Close()">Home</a></li>
+                            <li><a href="#gallery-page" onclick="Close()">Galeria</a></li>
+                            <li><a href="#about-page" onclick="Close()">Sobre</a></li>
+                            <li><a href="#contact-page" onclick="Close()">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="content-home">
+                <div class="info">
+                    <h1>Designer Gráfico & <br> Desenhista</h1>
+                    <p class="name"><i>Kamilly Victória</i></p>
+                </div>
+                <picture>
+                    <img class="profpic" src="assets/profilepic.svg" alt="Photo">
+                </picture>
+            </div>
+        </div>
+        <div class="gallery-page" id="gallery-page">
+            <h1 class="title">Galeria</h1>
+            <div class="cards">
+                <div>
+                    <img class="card" src="assets/draw1.svg" alt="Art">
+                </div>
+                <div>
+                    <picture><img class="card" src="assets/draw2.svg" alt="Art"></picture>
+                </div>
+                <div>
+                    <picture><img class="card" src="assets/draw3.svg" alt="Art"></picture>
+                </div>
+                <div>
+                    <picture><img class="card" src="assets/draw4.svg" alt="Art"></picture>
+                </div>
+                <div>
+                    <picture><img class="card" src="assets/draw5.svg" alt="Art"></picture>
+                </div>
+                <div>
+                    <picture><img class="card" src="assets/draw6.svg" alt="Art"></picture>
+                </div>
+            </div>
+        </div>
+        <div class="about-page" id="about-page">
+            <h1 class="title">Sobre</h1>
+            <div class="text">
+                <p>Meu nome é Kamilly Victória Costa e Silva, tenho 15 anos e moro no Brasil. Desde que eu era pequena amava ficar desenhando e colorindo, achava tudo isso muito divertido. Entretanto, um dia percebi que poderia levar isso além.</p>
+                <p>Apesar de eu ter começado a pouco tempo, já consigo fazer um trabalho muito bom e estarei sempre tentando ficar melhor ainda. O design para mim é algo além de um trabalho, ele é também faz parte de mim, é uma coisa que me deixa feliz ao criar. Esse desejo de desenhar e crirar começou bem cedo, mas precisamente aos meus 11 anos, e a partir dai eu não parei mais.</p>
+                <p>Agora que você me conheceu um pouco, vamos trabalhar juntos?! Você pode fazer contato comigo na seção abaixo.</p>
+            </div>
+        </div>
+        <div class="contact-page" id="contact-page">
+            <h1 class="title">Contato</h1>
+            <div class="form">
+                <form action="https://formsubmit.co/kamillyvictoriacostaesilva@gmail.com" method="POST">
+                    <input type="text" name="name" id="name" required placeholder="Nome">
+                    <input type="email" name="email" id="email" required placeholder="Email">
+                    <textarea name="msg" cols="30" id="msg" rows="15" required placeholder="Mensagem"></textarea>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="social">
+                <a href="https://www.instagram.com/sayudesignr/" target="_blank"><img src="assets/instagram.png" alt="Instagram link"></a>
+                <a href="https://twitter.com/morgnzz" target="_blank"><img src="assets/twitter.png" alt="Twitter link"></a>
+            </div>
+        </div>
+        <footer>
+            <p>&copy;2022 Pedro Henrique | Web Developer</p>
+        </footer>
+    </main>
+    
+<script src="js/menu.js"></script>
+</body>
+</html>
