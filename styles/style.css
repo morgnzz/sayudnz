@@ -202,7 +202,7 @@ picture {
 /* ABOUT PAGE */
 
 .about-page {
-  background: url(/assets/bg-about.png);
+  background-image: url(/assets/bg-about.png);
   background-size: cover;
 
   width: 100%;
@@ -229,7 +229,7 @@ picture {
 /* CONTACT PAGE */
 
 .contact-page {
-  background: url(/assets/bg-contact.jpg);
+  background-image: url(/assets/bg-contact.jpg);
   background-size: cover;
 
   width: 100%;
